@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <picture>
+        <source media="(max-width: 760px)" srcset="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/imagens/foto-p.png?raw=true" type="image/png">
+        <source media="(max-width: 1050px)" srcset="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/imagens/foto-m.png?raw=true" type="image/png">
+        <img src="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-01/ex011/imagens/foto-g.png?raw=true" alt="foto grande">
+    </picture>
+    <br>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg"> 
+    </audio>
+    <br>
+    <video controls width="500">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+    </video>
+    <h1>video do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kcfs1-ryKWE?si=CEckkWfbv05Lja38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
